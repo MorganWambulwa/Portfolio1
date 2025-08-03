@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Portfolio of Morgan Wambulwa, a data enthusiast and aspiring software developer. Showcasing skills in data analysis, software development, and graphic design." />
+<title>Morgan Wambulwa | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #0d0d0d;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    color: #00bcd4;
+    font-size: 2rem;
+  }
+
+  nav {
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background: #00bcd4;
+    color: #0d0d0d;
+  }
+
+  main {
+    flex-grow: 1;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  section {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+  section h2 {
+    margin-top: 0;
+    color: #00bcd4;
+    font-size: 2rem;
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 0.3rem;
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+    color: #00bcd4;
+    font-size: 1.4rem;
+  }
+
+  p, li {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 1.4rem;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 0.7rem;
+    padding-left: 1.3rem;
+  }
+
+  li::before {
+    content: ".";
+    position: absolute;
+    left: 0;
+    color: #000000;
+    font-weight: 700;
+  }
+
+  a.email-link,
+  a.external-link {
+    color: #00bcd4;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  a.email-link:hover,
+  a.external-link:hover {
+    color: #00e5ff;
+  }
+
+  footer {
+    background: #0d0d0d;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    color: #aaaaaa;
+    font-size: 0.9rem;
+  }
+    footer p {
+  color: #ffffff;
+}
+
+  @media (max-width: 600px) {
+    nav {
+      gap: 1rem;
+      padding: 0.8rem 0;
+    }
+
+    main {
+      margin: 1.5rem 1rem;
+      padding: 0 1rem;
+    }
+
+    section {
+      padding: 1.5rem 1.8rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Morgan Wambulwa</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am Morgan Wambulwa, an insightful data enthusiast and aspiring software developer with a keen eye for visual storytelling. With a solid foundation in Python, SQL, Excel, SPSS and Power BI, I thrive at translating raw data into meaningful strategies.</p>
+      <p>I am currently sharpening my craft in software development through the Power Learn Project Academy. I blend logic, empathy and creativity to build solutions that inform, engage and inspire.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+      <h3>Software Development</h3>
+      <ul>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+      </ul>
+      <h3>Data Analysis & Visualization</h3>
+      <ul>
+        <li>Excel</li>
+        <li>Pandas & NumPy</li>
+        <li>Matplotlib</li>
+        <li>SPSS</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li>B.Sc. in Travel and Tourism Management - Mount Kenya University</li>
+        <li>Data Analytics - Sonek Data School (2025)</li>
+        <li>Graphic Design (Ongoing) - Ajira Digital Program</li>
+        <li>Software Development (Ongoing) - Power Learn Project</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <h3>Analytics</h3>
+      <ul>
+        <li><strong>Python Data Analysis and Visualization:</strong> Explored tourism datasets using Pandas & Matplotlib.</li>
+        <li><strong>Excel Sales Dashboard:</strong> Built a dynamic sales dashboard with advanced Excel.</li>
+      </ul>
+      <h3>Graphic Design</h3>
+      <ul>
+        <li>Z-Fold Brochure</li>
+        <li>Posters</li>
+        <li>Logos</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a class="email-link" href="mailto:morganwambulwa019@gmail.com">morganwambulwa019@gmail.com</a></p>
+      <p>Connect with me:</p>
+      <p>
+        <a class="external-link" href="https://www.linkedin.com/in/morgan-wambulwa-a221b3284/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+        <a class="external-link" href="https://github.com/MorganWambulwa" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+  <p>&copy; 2025 Morgan Wambulwa. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
